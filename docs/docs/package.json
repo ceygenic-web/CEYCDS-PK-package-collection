@@ -1,0 +1,7 @@
+{
+    "scripts": {
+      "sync": "node scripts/sync-readmes.js",
+      "start": "npm run sync && docusaurus start",
+      "build": "npm run sync && docusaurus build"
+    }
+  }
