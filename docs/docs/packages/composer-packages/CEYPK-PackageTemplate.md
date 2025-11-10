@@ -8,12 +8,12 @@ description: "Documentation for CEYPK-PackageTemplate Composer package"
 
 A comprehensive Laravel package template for creating reusable packages within the Ceygenic ecosystem. This template provides a solid foundation with service providers, facades, configuration management, and testing setup.
 
-## 📋 Requirements
+## Requirements
 
 - PHP >= 8.2
 - Laravel >= 10.0 (automatically handled via Orchestra Testbench)
 
-## 📝 Naming Conventions
+##  Naming Conventions
 
 This template uses placeholders that must be replaced throughout the codebase. Here's what each placeholder means:
 
@@ -48,21 +48,21 @@ Ceygenic\{PackageStudly}
 
 **Example**: `Ceygenic\PaymentGateway`, `Ceygenic\UserManager`
 
-## 🎯 Template Overview
+## Template Overview
 
 **This is a basic Laravel package template** that provides the essential structure for creating reusable packages. It includes:
 
-✅ Service Provider setup  
-✅ Facade support  
-✅ Configuration file  
-✅ Basic testing structure  
-✅ CI/CD workflow  
+Service Provider setup  
+Facade support  
+Configuration file  
+Basic testing structure  
+CI/CD workflow  
 
 **You can extend this template** by adding additional features as needed.
 
-> 💡 **Tip**: For comprehensive package creation guidelines, refer to the [Composer Package Creation Guide](https://docs.google.com/document/d/1N6kuRz4Zd2dnZ_QNQcFl48-XJrPV52XC44iQT2tZVB8/edit?usp=sharing).
+>  **Tip**: For comprehensive package creation guidelines, refer to the [Composer Package Creation Guide](https://docs.google.com/document/d/1N6kuRz4Zd2dnZ_QNQcFl48-XJrPV52XC44iQT2tZVB8/edit?usp=sharing).
 
-## 🚀 Installation
+##  Installation
 
 ### For Package Development
 
@@ -104,7 +104,7 @@ Once your package is published to Packagist:
 composer require ceygenic/packagename
 ```
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Publishing Configuration
 
@@ -125,7 +125,7 @@ __PACKAGE_ENV_PREFIX___ENABLED=true
 __PACKAGE_ENV_PREFIX___PREFIX=[YourPackage]
 ```
 
-## 📖 Usage
+##  Usage
 
 ### Using the Facade
 
@@ -161,7 +161,7 @@ $package = app('__package_name__');
 $version = $package->version();
 ```
 
-## 🧪 Testing
+##  Testing
 
 This package uses PHPUnit with Orchestra Testbench for Laravel package testing.
 
@@ -196,7 +196,7 @@ class YourTest extends TestCase
 }
 ```
 
-## 🔧 Development
+##  Development
 
 ### Package Structure
 
@@ -511,7 +511,7 @@ routes/
    - Tag a release: `git tag v1.0.0 && git push --tags`
    - Submit your package to [Packagist](https://packagist.org)
 
-## 🔄 Continuous Integration
+##  Continuous Integration
 
 This template includes a GitHub Actions workflow (`.github/workflows/tests.yml`) that automatically runs tests on:
 - Push to `main` or `master` branches
@@ -519,13 +519,13 @@ This template includes a GitHub Actions workflow (`.github/workflows/tests.yml`)
 
 The CI runs on PHP 8.3 with PHPUnit.
 
-## 📚 Additional Resources
+##  Additional Resources
 
 For more detailed information about creating Composer packages, refer to the official guide:
 
 - **[Composer Package Creation Guide](https://docs.google.com/document/d/1N6kuRz4Zd2dnZ_QNQcFl48-XJrPV52XC44iQT2tZVB8/edit?usp=sharing)** - Comprehensive guide for package creation
 
-## ⚠️ Important Notes
+##  Important Notes
 
 - **This is a basic template** - Start with the core structure and add features as needed (see [Extending the Template](#extending-the-template) section)
 - **Replace all placeholders** - Before using this template, replace all placeholder values with your actual package names (see [Naming Conventions](#-naming-conventions) section)
