@@ -11,11 +11,11 @@ npm start
 
 The dev server opens at http://localhost:3000 and hot-reloads as you edit content.
 
-## Keep The Docs Updated (Simple Steps)
+## Keep The Docs Updated 
 
 1. **Add or edit a README**
-   - npm package? Update `Alert_Box/README.md` or any folder under `NPM_Package/`.
-   - Composer package? Edit the README inside `COMPOSER_Package/.../<package>/`.
+   - npm package? Update any folder under `NPM_Package/`.
+   - Composer package? Edit the README inside `COMPOSER_Package/`.
    - If it’s a brand-new package docs page, just copy/paste the README file into the right folder and save.
 
 2. **Sync the docs with one command**
@@ -34,7 +34,7 @@ The dev server opens at http://localhost:3000 and hot-reloads as you edit conten
 4. **Commit the changes**
    ```bash
    cd /Users/nethmih/Desktop/hi/test/package-collection
-   git add <your README> docs/docs/packages/...
+   git add .
    git commit -m "Update package docs"
    git push origin main
    ```
