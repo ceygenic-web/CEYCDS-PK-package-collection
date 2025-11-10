@@ -17,15 +17,7 @@ This documentation site automatically syncs README files from packages in the re
 
 Browse the packages using the sidebar navigation. Each package has its own documentation page with installation instructions, usage examples, and API reference.
 
-## Syncing Documentation
 
-Package README files are synced automatically. To update the documentation after adding or modifying a package README, run:
-
-```bash
-npm run sync-readmes
-```
-
-This will sync all package README files to the documentation site.
 
 ## Package Categories
 
@@ -42,3 +34,10 @@ Composer packages are located in the `COMPOSER_Package` directory. These are PHP
 ```bash
 composer require <package-name>
 ```
+## Package Structure
+
+Packages are organized as follows:
+
+- **NPM Packages**: `docs/packages/npm-packages/`
+- **Composer Packages**: `docs/packages/composer-packages/`
+
