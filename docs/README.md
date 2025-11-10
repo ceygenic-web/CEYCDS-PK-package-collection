@@ -11,44 +11,39 @@ npm start
 
 The dev server opens at http://localhost:3000 and hot-reloads as you edit content.
 
-## Add Or Update A Package README (Beginner Friendly)
+## Keep The Docs Updated (Simple Steps)
 
-1. **Open the source README you want to change**  
-   - npm packages live in folders like `Alert_Box/README.md` or `NPM_Package/<package>/README.md`.  
-   - Composer packages live under `COMPOSER_Package/.../<package>/README.md`.  
-   Copy/paste your new content into the file and save.
+1. **Add or edit a README**
+   - npm package? Update `Alert_Box/README.md` or any folder under `NPM_Package/`.
+   - Composer package? Edit the README inside `COMPOSER_Package/.../<package>/`.
+   - If it’s a brand-new package docs page, just copy/paste the README file into the right folder and save.
 
-2. **Regenerate the docs from those READMEs**  
+2. **Sync the docs with one command**
    ```bash
    cd /Users/nethmih/Desktop/hi/test/package-collection/docs
    npm run sync-readmes
-   ```  
-   This copies the README into the Docusaurus docs (`docs/docs/packages/...`) with the correct frontmatter.
+   ```
+   This copies every README into Docusaurus (`docs/docs/packages/...`).
 
-3. **Preview the site (optional but recommended)**  
+3. **Preview (optional)**
    ```bash
    npm start
-   ```  
-   Browse to the page you changed and confirm everything looks right. Stop the server with `Ctrl+C`.
-
-4. **Build production assets (optional)**  
-   ```bash
-   npm run build
    ```
+   Open http://localhost:3000 to check the new page. Press `Ctrl+C` to stop.
 
-5. **Commit your changes**  
+4. **Commit the changes**
    ```bash
    cd /Users/nethmih/Desktop/hi/test/package-collection
-   git status
-   git add <edited README> docs/docs/packages/...
-   git commit -m "Update README for ..."
+   git add <your README> docs/docs/packages/...
+   git commit -m "Update package docs"
    git push origin main
    ```
 
-6. **Deploy to GitHub Pages**  
+5. **Deploy the live site**
    ```bash
    cd /Users/nethmih/Desktop/hi/test/package-collection/docs
-   npm run build    # skip if already run
+   npm run build
+
    cd /Users/nethmih/Desktop/hi/test/package-collection
    git worktree add ../package-collection-gh-pages gh-pages
    cd /Users/nethmih/Desktop/hi/test/package-collection-gh-pages
@@ -61,4 +56,4 @@ The dev server opens at http://localhost:3000 and hot-reloads as you edit conten
    git worktree remove ../package-collection-gh-pages
    ```
 
-After GitHub Pages finishes publishing, your changes are live at `https://ceygenic-web.github.io/package-collection/`.
+When GitHub Pages finishes publishing, the site updates at `https://ceygenic-web.github.io/package-collection/`.
