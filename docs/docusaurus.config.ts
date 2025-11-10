@@ -18,12 +18,12 @@ const config: Config = {
   url: 'https://ceygenic-web.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/package-collection/',
+  baseUrl: '/CEYCDS-PK-package-collection/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'ceygenic-web', // Usually your GitHub org/user name.
-  projectName: 'package-collection', // Usually your repo name.
+  projectName: 'CEYCDS-PK-package-collection', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',

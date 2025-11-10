@@ -56,4 +56,4 @@ The dev server opens at http://localhost:3000 and hot-reloads as you edit conten
    git worktree remove ../package-collection-gh-pages
    ```
 
-When GitHub Pages finishes publishing, the site updates at `https://ceygenic-web.github.io/package-collection/`.
+When GitHub Pages finishes publishing, the site updates at `https://ceygenic-web.github.io/CEYCDS-PK-package-collection/`.
