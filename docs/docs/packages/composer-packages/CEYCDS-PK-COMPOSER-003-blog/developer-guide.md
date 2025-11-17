@@ -538,7 +538,7 @@ Now the same public endpoints will read from Sanity instead of your local DB (wh
 
 ### 11. Summary
 
-- You can install this package into **any Laravel 10/11 project**.
+- You can install this package into **any Laravel 10, 11, or 12 project**.
 - It gives you a **complete backend blog engine + API**.
 - It is designed to be **driver-based** (DB or Sanity), **configurable**, and **extendable**.
 - Frontend/admin UI is up to your application — this package focuses on backend and API.

@@ -360,72 +360,17 @@ Version 1 allows customization through:
 
 ---
 
-### 15. Known Limitations in Version 1
-
-#### 15.1. Sanity Driver
-- Write operations (create, update, delete) throw `RuntimeException`
-- Only read operations are fully implemented
-- Sanity mutations would need to be implemented for full support
-
-#### 15.2. No Events/Hooks
-- Version 1 does not emit Laravel events (e.g., `PostPublished`, `PostArchived`)
-- Host apps cannot easily hook into post lifecycle events
-
-#### 15.3. No Service Layer
-- Business logic is in repositories and controllers
-- No dedicated service classes (except `PostService` which exists but may not be fully utilized)
-
-#### 15.4. Limited Extensibility
-- No plugin/hook system for extending functionality
-- Extension requires overriding repositories/models
-
----
-
-### 16. Code Organization
-
-#### 16.1. Directory Structure
-```
-src/
-├── Blog.php                    # Core class
-├── BlogServiceProvider.php     # Service provider
-├── Contracts/
-│   └── Repositories/          # Repository interfaces
-├── Facades/
-│   └── Blog.php               # Facade
-├── Http/
-│   ├── Controllers/
-│   │   └── Api/               # Public & Admin controllers
-│   └── Resources/             # JSON:API resources
-├── Models/                     # Eloquent models
-├── Repositories/
-│   ├── Eloquent/              # Eloquent implementations
-│   └── Sanity/                # Sanity implementations
-├── Services/                   # Service classes (minimal)
-└── Traits/                     # Reusable traits
-```
-
-#### 16.2. Test Organization
-```
-tests/
-├── Feature/
-│   ├── Api/                   # API endpoint tests
-│   └── *.php                  # Feature tests
-└── TestCase.php               # Base test case
-```
-
----
-
-### 17. Dependencies
+### 15. Dependencies
 
 Version 1 requires:
-- **Laravel** >= 10.0 or >= 11.0
+- **Laravel** >= 10.0, >= 11.0, or >= 12.0
 - **PHP** >= 8.2
 - **spatie/laravel-query-builder** – for filtering/sorting
 - **Laravel Sanctum** – for admin API authentication (host app responsibility)
 
 ---
 
-### 18. Summary for Version 2 Developers
+### 16. Summary for Version 2 Developers
 
 **What Version 1 provides:**
 - Complete headless blog engine with RESTful API
