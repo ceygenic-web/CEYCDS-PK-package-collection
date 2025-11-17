@@ -1,6 +1,6 @@
 ---
-sidebar_position: 5
-title: "Blog Package - Version 2 Architecture Guide"
+sidebar_position: 3
+title: "Version 2 Architecture Guide"
 description: "Architecture documentation for developers building Version 2"
 ---
 
@@ -455,8 +455,8 @@ Version 1 requires:
 - Database connection configuration (currently handled via model extension)
 
 **Related Documentation:**
-- See [Main Documentation](../composer-packages/CEYCDS-PK-COMPOSER-003-blog) for installation and basic setup, including database connection configuration
-- See [Developer Guide](../composer-packages/CEYCDS-PK-COMPOSER-003-blog-developer-guide) for detailed usage instructions and database connection setup
+- See [Main Documentation](./) for installation and basic setup, including database connection configuration
+- See [Developer Guide](./developer-guide) for detailed usage instructions and database connection setup
 
 This documentation should help you understand Version 1's implementation before planning Version 2 improvements.
 

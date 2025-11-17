@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 title: "Blog Package (CEYCDS-PK-COMPOSER-003)"
 description: "A comprehensive Laravel package for managing blog posts, categories, tags, and authors"
 ---
@@ -10,11 +10,11 @@ A comprehensive Laravel package for managing blog posts, categories, tags, and a
 
 ##  Features
 
-- Complete RESTful API (JSON:API compliant)
+-  Complete RESTful API (JSON:API compliant)
 -  Public and Admin endpoints
 -  Support for multiple storage drivers (Database & Sanity CMS)
 -  Advanced filtering, sorting, and pagination
-- Automatic reading time calculation
+-  Automatic reading time calculation
 -  Slug generation for posts, categories, and tags
 -  Post status management (draft, published, archived)
 -  Post scheduling and archiving
@@ -114,7 +114,7 @@ If you want to store blog data in a separate database, you can configure a custo
 ],
 ```
 
-Then set the connection in your models or via config. See the [Developer Guide](#developer-guide) for details.
+Then set the connection in your models or via config. See the [Developer Guide](./developer-guide) for details.
 
 ### Step 5: Run Database Migrations
 
@@ -506,6 +506,9 @@ composer require spatie/laravel-query-builder
 
 For more detailed information, see the following guides:
 
-- **[Developer Guide](./CEYCDS-PK-COMPOSER-003-blog-developer-guide)** - In-depth guide for installing, configuring, and extending the package
-- **[Version 2 Developer Guide](./CEYCDS-PK-COMPOSER-003-blog-v2-guide)** - Architecture documentation for developers building Version 2
+- **[Developer Guide](./developer-guide)** - In-depth guide for installing, configuring, and extending the package
+- **[Version 2 Developer Guide](./v2-guide)** - Architecture documentation for developers building Version 2
+
+---
+
 

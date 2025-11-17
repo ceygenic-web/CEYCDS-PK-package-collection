@@ -1,6 +1,6 @@
 ---
-sidebar_position: 4
-title: "Blog Package - Developer Guide"
+sidebar_position: 2
+title: "Developer Guide"
 description: "In-depth guide for installing, configuring, and extending the blog package"
 ---
 
@@ -531,8 +531,8 @@ Now the same public endpoints will read from Sanity instead of your local DB (wh
 - `tests/Feature/*` — best place to see examples of how everything works end-to-end
 
 **Related Documentation:**
-- See [Main Documentation](../composer-packages/CEYCDS-PK-COMPOSER-003-blog) for installation and basic setup
-- See [Version 2 Developer Guide](../composer-packages/CEYCDS-PK-COMPOSER-003-blog-v2-guide) for Version 1 architecture details
+- See [Main Documentation](./) for installation and basic setup
+- See [Version 2 Developer Guide](./v2-guide) for Version 1 architecture details
 
 ---
 
