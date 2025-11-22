@@ -73,7 +73,7 @@ php artisan migrate
 
 **Note:** The users migration in the package checks `Schema::hasTable('users')` before creating, so it will not overwrite your existing users table.
 
-For detailed installation steps, see the [Installation Guide](INSTALLATION.md).
+For detailed installation steps, see the [Installation Guide](Installation-guide).
 
 ## 3. Database Connection Configuration
 
@@ -388,7 +388,7 @@ Authorization: Bearer {your-token}
 - Content-Type: `multipart/form-data`
 - Field: `file` (image file, max 10MB)
 
-To secure these, ensure Sanctum is installed and configured in your host app. See the [Installation Guide](INSTALLATION.md) for Sanctum setup.
+To secure these, ensure Sanctum is installed and configured in your host app. See the [Installation Guide](Installation-guide) for Sanctum setup.
 
 ## 7. How the Package Is Built (For Developers Extending It)
 
@@ -608,7 +608,7 @@ This command verifies that data is synchronized between database and Sanity (if 
 
 **Related Documentation:**
 
-- See [Installation Guide](INSTALLATION.md) for installation and basic setup
+- See [Installation Guide](Installation-guide) for installation and basic setup
 
 ## 12. Summary
 

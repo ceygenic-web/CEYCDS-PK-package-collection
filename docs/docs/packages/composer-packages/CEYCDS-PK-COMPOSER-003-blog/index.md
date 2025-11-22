@@ -28,17 +28,17 @@ A comprehensive Laravel package for managing blog posts, categories, tags, and a
 
 ## Installation & Setup
 
-For detailed installation and setup instructions, please see the [Installation Guide](INSTALLATION.md).
+For detailed installation and setup instructions, please see the [Installation Guide](Installation-guide).
 
 ---
 
 ## Quick Start
 
-For detailed usage examples, API documentation, configuration options, and extension guides, see the [Developer Guide](DEVELOPER_GUIDE.md).
+For detailed usage examples, API documentation, configuration options, and extension guides, see the [Developer Guide](developer-guide).
 
 ---
 
 ## Documentation
 
-- **[Installation Guide](INSTALLATION.md)** - Step-by-step installation and setup instructions
-- **[Developer Guide](DEVELOPER_GUIDE.md)** - Comprehensive guide for using, configuring, and extending the package
+- **[Installation Guide](Installation-guide)** - Step-by-step installation and setup instructions
+- **[Developer Guide](developer-guide)** - Comprehensive guide for using, configuring, and extending the package

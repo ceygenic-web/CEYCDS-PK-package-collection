@@ -82,7 +82,7 @@ If you want to store blog data in a separate database, you can configure a custo
 ],
 ```
 
-Then set the connection in your models or via config. See the [Developer Guide](DEVELOPER_GUIDE.md#database-connection-configuration) for details.
+Then set the connection in your models or via config. See the [Developer Guide](developer-guide#database-connection-configuration) for details.
 
 ## Step 5: Run Database Migrations
 
