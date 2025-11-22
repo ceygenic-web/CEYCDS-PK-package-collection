@@ -1,4 +1,4 @@
-# Developer Guide: Using ceygenic/blog-core in Your Laravel Projects
+# Developer Guide
 
 This guide is for developers who want to install, configure, extend, and understand the ceygenic/blog-core package. It assumes basic Laravel knowledge but explains everything step by step.
 
