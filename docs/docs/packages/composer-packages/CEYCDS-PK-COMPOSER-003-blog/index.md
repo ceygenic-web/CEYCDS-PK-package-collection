@@ -1,4 +1,4 @@
-# Blog Package (ceygenic/blog-core)
+# Blog Package 
 
 A comprehensive Laravel package for managing blog posts, categories, tags, and authors. This package provides a complete RESTful API with public and admin endpoints, supporting both database and Sanity CMS storage drivers.
 
